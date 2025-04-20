@@ -16,6 +16,8 @@ public class Serializer {
 
             oos.writeObject(studentInfo);
 
+
+            // closing streams
             oos.close();
             fos.close();
 

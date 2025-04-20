@@ -9,6 +9,8 @@ public class StudentInfo implements Serializable {
 
     String contact;
 
+
+    // parameterized constructor
     StudentInfo(int id, String n, String c) {
         this.id = id;
         this.name = n;

@@ -15,6 +15,7 @@ public class Deserializer {
 
             studentInfo = (StudentInfo) ois.readObject();
 
+            // closing streams
             ois.close();
             fis.close();
 
