@@ -41,6 +41,7 @@ public class MinMax {
                 min = numbers[i];
             }
             if (max < numbers[i]) {
+                // assign the value to max if max is smaller than numbers[i]
                 max = numbers[i];
             }
         }
