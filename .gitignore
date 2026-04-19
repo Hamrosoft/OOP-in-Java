@@ -1,1 +1,4 @@
+# donot track class files
 *.class
+# donot track files/ folders that start with lab
+*lab**
